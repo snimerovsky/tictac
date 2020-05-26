@@ -1,0 +1,62 @@
+.titleBox {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.titlePhone {
+  display: none;
+}
+
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .input {
+      height: 64px;
+      border-radius: 50px;
+      outline: none;
+      border: 1px solid #ccc;
+      width: 100%;
+      padding: 0 20px;
+      font-size: 1.2rem;
+    }
+    .input:not(:first-child) {
+      margin-top: 1.2rem;
+    }
+    .coinsBox {
+      display: flex;
+      align-items: center;
+
+      .text {
+        margin-left: 0.5rem;
+        font-weight: 700;
+        font-size: 1.4em;
+        color: #ffcc4d;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .titleBox {
+    .title {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .titleBox {
+    .title {
+      width: 100%;
+    }
+  }
+}

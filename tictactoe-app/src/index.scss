@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+$bodyColorTop: #4776e6;
+$bodyColorBottom: #8e54e9;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  background: linear-gradient(0deg, $bodyColorBottom, $bodyColorTop 60%)
+    no-repeat;
+  font-family: "Roboto", sans-serif;
+}

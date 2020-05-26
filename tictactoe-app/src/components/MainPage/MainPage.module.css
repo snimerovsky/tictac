@@ -1,0 +1,86 @@
+.titleBox {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titlePhone {
+  display: none;
+}
+
+.btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.btnBox .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btnBox .box .input {
+  height: 64px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.btnBox .box .input:not(:first-child) {
+  margin-top: 1.2rem;
+}
+
+.btnBox .box .coinsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btnBox .box .coinsBox .text {
+  margin-left: 0.5rem;
+  font-weight: 700;
+  font-size: 1.4em;
+  color: #ffcc4d;
+}
+
+@media only screen and (max-width: 550px) {
+  .titleBox .title {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .titleBox .title {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=MainPage.module.css.map */

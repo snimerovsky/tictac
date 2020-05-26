@@ -1,0 +1,10 @@
+export const SET_LOADING = "SET_LOADING";
+export const REMOVE_LOADING = "REMOVE_LOADING";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+export const GET_DATA = "GET_DATA";
+export const START_GAME = "START_GAME";
+export const PUSH_BLOCK = "PUSH_BLOCK";
+export const WIN_GAME = "WIN_GAME";
+export const END_GAME = "END_GAME";
+export const LOGOUT = "LOGOUT";

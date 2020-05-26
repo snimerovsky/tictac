@@ -1,0 +1,80 @@
+.modalBox {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(#000000, 0.5);
+
+  .modal {
+    border-radius: 6px;
+    background: linear-gradient(0deg, #f7971e, #ffd200);
+    -webkit-background: linear-gradient(0deg, #f7971e, #ffd200);
+    -moz-background: linear-gradient(0deg, #f7971e, #ffd200);
+    -ms-background: linear-gradient(0deg, #f7971e, #ffd200);
+    -o-background: linear-gradient(0deg, #f7971e, #ffd200);
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    padding-left: 0;
+
+    .profileBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 7rem;
+      position: relative;
+      .profileImg {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .name {
+        color: white;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        word-break: break-all;
+      }
+      .methodImg {
+        margin-top: 0.5rem;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+      }
+    }
+    .rightBox {
+      width: 9rem;
+      display: flex;
+      padding-right: 30px;
+      align-items: center;
+      flex-direction: column;
+      .titleWon {
+        color: white;
+        font-weight: 800;
+      }
+      .boxCoins {
+        display: flex;
+        justify-content: center;
+        border-radius: 6px;
+        background: rgba(#fff, 0.7);
+        margin-top: 0.2rem;
+        padding: 4px 20px;
+        .coinsBox {
+          display: flex;
+          align-items: center;
+
+          .text {
+            margin-left: 0.3rem;
+            font-weight: 700;
+            font-size: 1.4em;
+            color: #ffcc4d;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.modalBox {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modalBox .modal {
+  border-radius: 6px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f7971e), to(#ffd200));
+  background: linear-gradient(0deg, #f7971e, #ffd200);
+  -webkit-background: -webkit-gradient(linear, left bottom, left top, from(#f7971e), to(#ffd200));
+  -webkit-background: linear-gradient(0deg, #f7971e, #ffd200);
+  -moz-background: linear-gradient(0deg, #f7971e, #ffd200);
+  -ms-background: linear-gradient(0deg, #f7971e, #ffd200);
+  -o-background: linear-gradient(0deg, #f7971e, #ffd200);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0;
+}
+
+.modalBox .modal .profileBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 7rem;
+  position: relative;
+}
+
+.modalBox .modal .profileBox .profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.modalBox .modal .profileBox .name {
+  color: white;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  word-break: break-all;
+}
+
+.modalBox .modal .profileBox .methodImg {
+  margin-top: 0.5rem;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.modalBox .modal .rightBox {
+  width: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modalBox .modal .rightBox .titleWon {
+  color: white;
+  font-weight: 800;
+}
+
+.modalBox .modal .rightBox .boxCoins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 0.2rem;
+  padding: 4px 20px;
+}
+
+.modalBox .modal .rightBox .boxCoins .coinsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modalBox .modal .rightBox .boxCoins .coinsBox .text {
+  margin-left: 0.3rem;
+  font-weight: 700;
+  font-size: 1.4em;
+  color: #ffcc4d;
+}
+/*# sourceMappingURL=Modal.module.css.map */

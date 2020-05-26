@@ -1,0 +1,7 @@
+.successCross {
+  background: url("../../images/crossBlockSuccess.svg") !important;
+}
+
+.successNull {
+  background: url("../../images/nullBlockSuccess.svg") !important;
+}

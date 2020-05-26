@@ -1,0 +1,104 @@
+.btn {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 50px;
+  width: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+}
+
+.btn.green {
+  background: -webkit-gradient(linear, left top, right top, from(#00f5a0), to(#00d9f5));
+  background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -webkit-background: -webkit-gradient(linear, left top, right top, from(#00f5a0), to(#00d9f5));
+  -webkit-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -moz-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -ms-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -o-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+}
+
+.btn.green::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#00f5a0), to(#00d9f5));
+  background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -webkit-background: -webkit-gradient(linear, left top, right top, from(#00f5a0), to(#00d9f5));
+  -webkit-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -moz-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -ms-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  -o-background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  border-radius: 50px;
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -ms-filter: blur(20px);
+  -o-filter: blur(20px);
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.btn.green:hover::before {
+  opacity: 0.9;
+}
+
+.btn.red {
+  background: -webkit-gradient(linear, left top, right top, from(#f85b8c), to(#f89c3b));
+  background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -webkit-background: -webkit-gradient(linear, left top, right top, from(#f85b8c), to(#f89c3b));
+  -webkit-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -moz-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -ms-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -o-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+}
+
+.btn.red::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#f85b8c), to(#f89c3b));
+  background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -webkit-background: -webkit-gradient(linear, left top, right top, from(#f85b8c), to(#f89c3b));
+  -webkit-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -moz-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -ms-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  -o-background: linear-gradient(90deg, #f85b8c, #f89c3b);
+  border-radius: 50px;
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -ms-filter: blur(20px);
+  -o-filter: blur(20px);
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.btn.red:hover::before {
+  opacity: 0.9;
+}
+
+.btn:not(:first-child) {
+  margin-top: 1.8rem;
+}
+/*# sourceMappingURL=Button.module.css.map */
